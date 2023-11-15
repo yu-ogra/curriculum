@@ -1,0 +1,12 @@
+/*モバイル*/
+@media  screen and (max-width: 479px) {
+.wrapper{
+    width: 200px;
+    display: grid;
+    /* flex-direction:columnも試したが反応無し */
+
+    
+}
+
+}
+
