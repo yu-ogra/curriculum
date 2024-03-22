@@ -3,6 +3,7 @@ package study;
 import java.util.ArrayList;
 
 import constants.Constants;
+import language.Student;
 import person.Person;
         
         
@@ -40,8 +41,13 @@ public class Task2_23 {
         //⑤「〇〇が△△を学んでいます」という表示で山田さん、石谷さんが何を学んでいるか出力して下さい。
         
         //ここに解答
-        System.out.println(yamada.getName()+"は、"+yamada.getLanguage()+"を学んでいます");
-        System.out.println(ishitani.getName()+"は、"+ishitani.getLanguage()+"を学んでいます");
+        Student yamada1 = new Student("山田太郎",Constants.LANGUAGE_JAVA);
+        yamada1.studyLanguage();
+        
+        Student ishitani1 = new Student("石谷花子",Constants.LANGUAGE_HTML);
+        ishitani1.studyLanguage();
+      
+       
     }
 
 }
